@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Robber implements Comparable<Robber> {
 
-    private List<Vault> vaults;
+    private final List<Vault> vaults;
 
     public Robber() {
         this.vaults = new ArrayList<>();
