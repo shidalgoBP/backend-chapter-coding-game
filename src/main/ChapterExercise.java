@@ -7,9 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ChapterExercise {
-    private static List<Robber> robbers = new ArrayList<>();
+    private static final List<Robber> robbers = new ArrayList<>();
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int nRobbers = 4;
         int nVaults = 4;
         int[][] codes = new int[][]{
