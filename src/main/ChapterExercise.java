@@ -19,10 +19,10 @@ public class ChapterExercise {
                 {7, 1},
         };
 
-        result(nRobbers, nVaults, codes);
+        System.out.println(result(nRobbers, nVaults, codes));
     }
 
-    public static void result(int nbrRobbers, int nbrVaults, int[][] codes) {
+    public static int result(int nbrRobbers, int nbrVaults, int[][] codes) {
         for (int j = 0; j < nbrRobbers; j++) {
             robbers.add(new Robber());
         }
@@ -37,6 +37,6 @@ public class ChapterExercise {
             Robber.order(robbers);
         }
 
-        System.out.println(robbers.get(robbers.size() - 1).timeOfWork());
+        return(robbers.get(robbers.size() - 1).timeOfWork());
     }
 }
