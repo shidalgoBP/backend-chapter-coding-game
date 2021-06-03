@@ -1,5 +1,7 @@
-import model.Robber;
-import model.Vault;
+package main;
+
+import main.model.Robber;
+import main.model.Vault;
 
 import java.util.*;
 import java.util.function.Supplier;
