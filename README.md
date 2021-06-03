@@ -4,7 +4,7 @@ Este ejercicio cuenta con una solución realizada de manera convencional, con pr
 en todo lo posible, mediante el uso de **Interfaces Funcionales** y, de ser posible, **Funciones Lambda**. A lo largo del código existen varios bloques y
 sentencias que pueden ser reemplazadas por dichas funcionalidades.
 
-## Problema
+### Problema
 
 A gang of R foolish robbers decides to heist a bank. In the bank there are V vaults (indexed from 0 to V - 1). The robbers have managed to extract some information from the bank's director:
 - The combination of a vault is composed of C characters (digits/vowels).
@@ -60,7 +60,7 @@ The number of combinations a code of length _C_ can form if the first _N_ charac
 
 
 
-## Reglas del juego
+### Reglas del juego
 
 * **No cambiar los tests**, se puede cambiar cualquier parte del código, incluyendo la estructura del proyecto, excepto los test.
 * Después de cambiar el código, todos los tests deben aprobar.

@@ -7,22 +7,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ChapterExercise {
-    private static final List<Robber> robbers = new ArrayList<>();
 
     public static void main(String[] args) {
-        int nRobbers = 4;
-        int nVaults = 4;
-        int[][] codes = new int[][]{
-                {3, 2},
-                {4, 1},
-                {7, 6},
-                {7, 1},
-        };
-
-        System.out.println(result(nRobbers, nVaults, codes));
+        System.out.println("Not here! Go to the tests.");
     }
 
     public static int result(int nbrRobbers, int nbrVaults, int[][] codes) {
+        List<Robber> robbers = new ArrayList<>();
+
         for (int j = 0; j < nbrRobbers; j++) {
             robbers.add(new Robber());
         }
